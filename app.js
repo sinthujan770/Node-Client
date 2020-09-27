@@ -3,7 +3,7 @@ const cors = require('cors');
 
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const bearerToken = require('express-bearer-token');
+
 
 
 const clientRoutes = require('./api/routes/clients');
